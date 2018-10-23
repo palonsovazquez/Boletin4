@@ -10,6 +10,7 @@ package boletin4_3;
  * @author Pablo Alonso Vazquez <pav.vigo@gmail.com>
  */
 public class Circulo {
+
     private Double radio;
     private final Double Pi = Math.PI;
 
@@ -27,22 +28,20 @@ public class Circulo {
     public void setRadio(Double radio) {
         this.radio = radio;
     }
-    
-    public Double calcularArea(){
-        
-     Double area ; 
-     area = this.Pi*Math.pow(this.getRadio(), 2);
-     return area;
-    
+
+    public Double calcularArea() {
+
+        Double area;
+        area = this.Pi * Math.pow(this.getRadio(), 2);
+        return area;
+
     }
-    
-    public Double CalcularLonxitude(){
+
+    public Double CalcularLonxitude() {
         Double lonxitude;
-        lonxitude = 2*this.Pi*this.radio;
-        
-        
-    
-    return lonxitude;
-    
+        lonxitude = 2 * this.Pi * this.radio;
+
+        return lonxitude;
+
     }
 }

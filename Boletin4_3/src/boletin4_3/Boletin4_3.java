@@ -16,8 +16,8 @@ public class Boletin4_3 {
      */
     public static void main(String[] args) {
         Circulo x = new Circulo(50d);
-        System.out.println("La circunferencia es = "+ x.CalcularLonxitude());
-        System.out.println("El area es = "+ x.calcularArea());
+        System.out.println("La circunferencia es = " + x.CalcularLonxitude());
+        System.out.println("El area es = " + x.calcularArea());
     }
-    
+
 }

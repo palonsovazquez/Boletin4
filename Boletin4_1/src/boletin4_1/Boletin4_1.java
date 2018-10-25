@@ -17,10 +17,10 @@ public class Boletin4_1 {
     public static void main(String[] args) {
         Coche car = new Coche();
         car.acelerar(20);
-        System.out.println("velocidad = "+ car.getVelocidade());
+        System.out.println("velocidad = " + car.getVelocidade());
         car.frenar(10);
-        System.out.println("velocidad = "+ car.getVelocidade());
-        
+        System.out.println("velocidad = " + car.getVelocidade());
+
     }
-    
+
 }
